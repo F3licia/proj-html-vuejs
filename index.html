@@ -5,14 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-    <link rel="stylesheet" href="dist/app.css"> 
+    <link rel="stylesheet" href="dist/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;800&display=swap" rel="stylesheet">
     <title>Forum</title>
 </head>
 <body>
     <main id="app">
-     <div class="header">
-             <img v-bind:src="logo[0]" alt="">
-     </div>
+  <section>
+        <div class="header wrapper">
+            <img v-bind:src="logo[0]" alt="">
+            <div class="navbar">
+                <ul>
+                    <li v-for="link in allPages">
+                       {{link.title}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+  </section>
+  <section></section>
 
 
 

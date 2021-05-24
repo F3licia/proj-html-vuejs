@@ -1,13 +1,27 @@
 .header{
     height: 100px;
-
-    background-color: #26a9bd;
     color: #fff;
     font-size: 15px;
     line-height: 15px;
     letter-spacing: 1px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     & img{
-        margin:20px
+        margin-right:20px
     }
 }
 
+section:first-child{
+    background-color: #26a9bd
+}
+
+.navbar{
+ text-align: right;
+    width: 800px;
+    & li {
+        min-width: 100%;
+        display: inline;
+        margin-left: 60px;
+    }
+}

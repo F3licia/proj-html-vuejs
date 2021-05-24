@@ -1,7 +1,7 @@
 const app = new Vue({
     el: '#app',
     data:{
-        officiaLogo:"images/logo.png",
+        logo:["images/logo.png"],
         allPages:[
             {no:0, title:"Home", href:"#"},
             {no:1, title:"Apple", href:"#"},

@@ -1,5 +1,9 @@
 .header{
-    position:sticky;
+    background-color: #26a9bd;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: sticky;
+    width: 100vw;
     height: 100px;
     color: #fff;
     font-size: 15px;
@@ -8,15 +12,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    & img{
-        margin-right:20px
-    }
+    position: fixed;
+    z-index: 3;
+        & img{
+            margin-right:20px
+        }
 }
-
-section:first-of-type{
-    background-color: #26a9bd
-}
-
 .navbar{
  text-align: right;
     width: 800px;

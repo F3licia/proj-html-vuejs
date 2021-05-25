@@ -44,6 +44,8 @@
 </section>
 <!--sezione articoli-->
 <section>
+
+    <div class="subTitle4">All the latest news</div>
     <div class="articlesCols">
 
         <div class="row">  <!--card articoli-->
@@ -74,16 +76,14 @@
         
         <div class="row">    
             <div class="reviewsContainer">  <!--recensioni-->
-
-                <div class="featuredArtcl">
-                    <div class="overlay">
-                        <div class="subTitle2">featured article</div>
-                        <div class="subTitle3">{{inEvidence.title}}</div>
-                        <div class="para2">{{inEvidence.artc}}</div>
-                    </div>        
-                    <img alt="" v-bind:src="inEvidence.img">
-
-                </div>
+  
+                <div class="overlay">
+                    <div class="subTitle2">featured article</div>
+                    <div class="subTitle3">{{inEvidence.title}}</div>
+                    <div class="para2">{{inEvidence.artc}}</div>
+                </div>        
+                <img alt="" v-bind:src="inEvidence.img">
+              
             </div>
             <div class="tutorialsNguides subTitle4">
                Tutorials & Guides <!--titoli colonna-->
@@ -93,6 +93,7 @@
                     <div class="tutorialsNguides">
                         <div class="miniTitle">{{article.title}}</div>
                         <div class="para2">{{article.title}}</div>
+                        
                     </div>
                                       
                  

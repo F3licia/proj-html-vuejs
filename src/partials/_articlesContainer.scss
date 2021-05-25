@@ -26,26 +26,40 @@
 }
 .featuredArtcl{
     position: relative;
+    color: #ffff;
 
     & img {
         max-width: 100%;
        object-fit:cover
     }
+    & .overlay{
+        top: 50%;
+    }
 }
 
 .overlay{
     text-align: left;
-    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
     position: absolute;
-    top: 0;
-    bottom: 0;
     left:0;
     right:0;
 }
 
 .reviewsContainer{
+    position: relative;
+    color: #ffff;
     width: 65%;
     height: 100%;
+    & img {
+       max-width: 100%;
+       object-fit:cover
+    }
+    & .overlay{
+        bottom: 50%;
+        transform: translateY(50%);
+
+    }
 }
 
 .tutorialsNguides{
@@ -64,6 +78,7 @@
 
 .tutorialsNguides img{
     width: 150px;
+    height: 100px;
     padding: 5px 20px 5px 0px;
 }
 

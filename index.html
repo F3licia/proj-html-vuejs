@@ -42,30 +42,27 @@
         </div>
     </div>
 </section>
-    <section>
+<!--sezione articoli-->
+<section>
     <div class="articlesCols">
 
         <div class="row">
-            <div v-for="article in articles" v-if="!article.featured">
-                <div class="cardArticle">
+            <div v-for="article in articles" v-if="!article.featured"  class="cardArticle">
+                
                     <img alt="" v-bind:src="article.img">
                     <p>{{article.title}}</p>
-                    <p>{{article.artc}}</p> 
-                
-                </div>
+                    <p>{{article.artc}}</p>            
             </div>
-        </div> 
-
-        <div class="featuredArtcl">
-            <div v-for="article in articles" v-if="article.featured">
+            
+            <div v-for="article in articles" v-if="article.featured" class="featuredArtcl">
                 <div class="overlay">
                 <p>{{article.title}}</p>
                 <p>{{article.artc}} <p>
                 </div>        
                 <img alt="" v-bind:src="article.img">
-            
-            </div> 
-        </div>
+          
+            </div>
+        </div>  
 
     </div>
     </section>

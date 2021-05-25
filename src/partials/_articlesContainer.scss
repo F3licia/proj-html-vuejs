@@ -1,24 +1,23 @@
-.articleCols{
+.row{
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.row{
-    text-align: left;
-    border: 1px solid red;
-    & * {
-        display: inline-block;
-         width: 33.3%;
-    }
-}
+$minHeight: 400px;
+$minMargin: $minHeight + 200px;
 
 .cardArticle{
+    border: 1px solid red;
+    width: 30%;
+    min-height: $minHeight;
     padding: 5px;
-    margin-bottom: 30px;
+    margin-bottom: $minMargin;
+
     display: flex;
     flex-direction: column;
-    width: 100%;
     & img {        
         width: 100%;
         height: auto;
@@ -28,15 +27,15 @@
         padding: 5px;
     }
 }
+
 .featuredArtcl{
-    position: relative;
-    min-height: 100px;
+    position: absolute;
+    margin-top: $minHeight;
     & img {
         max-width: 100%;
        object-fit:cover
     }
 }
-
 .overlay{
     text-align: left;
     padding: 40px;

@@ -148,27 +148,22 @@ section.paragraph {
   color: #525252;
 }
 
-.articleCols {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .row {
-  text-align: left;
-  border: 1px solid red;
-}
-.row * {
-  display: inline-block;
-  width: 33.3%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .cardArticle {
+  border: 1px solid red;
+  width: 30%;
+  min-height: 400px;
   padding: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 600px;
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 .cardArticle img {
   width: 100%;
@@ -180,8 +175,8 @@ section.paragraph {
 }
 
 .featuredArtcl {
-  position: relative;
-  min-height: 100px;
+  position: absolute;
+  margin-top: 400px;
 }
 .featuredArtcl img {
   max-width: 100%;

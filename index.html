@@ -50,9 +50,9 @@
             <div v-for="article in rowHotTopic.slice(0, 3)"  class="cardArticle">
                 
                     <img alt="" v-bind:src="article.img">
-                    <p>{{article.title}}</p>
+                    <div class="miniTitle">{{article.title}}</div>
                     <p>Comments: {{article.commts}}</p>
-                    <p>{{article.artc}}</p>            
+                    <div class="para2">{{article.artc}}</div>            
             </div>
 
             <div class="featuredArtcl">  <!--in primo piano-->
@@ -64,9 +64,9 @@
             
             <div v-for="article in rowHotTopic.slice(3, 6)"  class="cardArticle">    <!--card articoli-->
                 <img alt="" v-bind:src="article.img">
-                <p>{{article.title}}</p>
+                <div class="miniTitle">{{article.title}}</div>
                 <p>Comments: {{article.commts}}</p>
-                <p>{{article.artc}}</p>            
+                <div class="para2">{{article.artc}}</div>            
             </div>
         </div> 
         

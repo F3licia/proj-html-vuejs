@@ -92,18 +92,19 @@ section {
 
 .para2 {
   font-size: 15px;
-  line-height: 60px;
-  letter-spacing: 25px;
-  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: normal;
+  font-weight: 400;
   text-transform: capitalize;
 }
 
 .miniTitle {
+  margin-top: 10px;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 6px;
+  letter-spacing: normal;
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .hero {

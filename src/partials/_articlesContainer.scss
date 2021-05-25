@@ -1,0 +1,42 @@
+.row{
+    text-align: left;
+    min-height: 100px;
+    & * {
+        display: inline-block;
+         width: 33.3%;
+    }
+}
+
+.cardArticle{
+    padding: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    & img {        
+        width: 100%;
+        height: auto;
+    }
+    & p {
+        width: 100%;
+        padding: 5px;
+    }
+}
+.featuredArtcl{
+    position: relative;
+    min-height: 100px;
+    & img {
+        max-width: 100%;
+       object-fit:cover
+    }
+}
+
+.overlay{
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+}

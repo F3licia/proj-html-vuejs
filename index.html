@@ -215,11 +215,19 @@
     </section>
 <!--footer-->
     <section>
+
         
+        <div v-for="item in rowHotTopic.slice(0, 3)" class="item">
+               > {{item.title}} 
+        </div>
 
+        <div v-for="item in recentTopics.slice(0, 3)" class="item">
+            > {{item.title}} 
+        </div>
 
-
-
+        <div v-for="item in latestReply.slice(0, 3)" class="item">
+            > {{item.reply}} 
+        </div>
 
 
     </section>

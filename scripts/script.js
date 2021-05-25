@@ -27,7 +27,6 @@ const app = new Vue({
             img:"./images/featured_article_2_bg.jpg",
             artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
         },
-
         articles:[
             {
                 title:"Questo è il titolo di un articolo",
@@ -104,32 +103,17 @@ const app = new Vue({
                 artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
             },       
         ],
-        popularTopics:[
-            {no:0, title:"", href:"#"},
-            {no:1, title:"", href:"#"},
-            {no:2, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-        ],
         recentTopics:[
-            {no:0, title:"", href:"#"},
-            {no:1, title:"", href:"#"},
-            {no:2, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
+            {no:0, title:"Morbi vitae dui euismod vulputate sollicitudin", href:"#"},
+            {no:1, title:"Vivamus pellenteque, felis quis varius", href:"#"},
+            {no:2, title:"Donec ornare pretium eget scelisque justo", href:"#"},
         ],
         latestReply:[
-            {no:0, title:"", href:"#"},
-            {no:1, title:"", href:"#"},
-            {no:2, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
-            {no:0, title:"", href:"#"},
+            {no:0, reply:"Dario Pineda on Morbi vitae dui euismod vulputate sollicitudin", href:"#"},
+            {no:1, reply:"Dario Pineda on Morbi vitae dui euismod vulputate sollicitudin", href:"#"},
         ]
     },
-    methods: {              //ritorna tre articoli con più di 10 commenti 
+    methods: {              //ritorna articoli con più di 10 commenti 
         hotTopic() {  
             this.rowHotTopic= this.articles.filter((artc) => {           
                 return (artc.commts >= 10) 

@@ -68,11 +68,10 @@ button {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 70%;
 }
 .navbar ul {
-  justify-content: flex-end;
   display: flex;
   align-content: flex-end;
 }

@@ -90,8 +90,9 @@
                 <img alt="" v-bind:src="inEvidence.img">
               
             </div>
-            <div class="tutorialsNguides subTitle4">
-               Tutorials & Guides <!--titoli colonna-->
+            <!--titoli colonna-->
+            <div class="tutorialsNguides">
+                <p class="colTitle"> Tutorials & Guides </p> 
                 <div v-for="article in tutorials">
                     
                     <img alt="" v-bind:src="article.img">
@@ -100,7 +101,7 @@
                         <div class="info">{{article.title}}</div>                       
                     </div>
                 </div>
-             </div>
+            </div>
         </div>
     </div>
     </section>

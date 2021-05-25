@@ -34,6 +34,7 @@ button {
   color: #fff;
   background-color: #000;
   border: 0;
+  text-transform: uppercase;
 }
 
 .header {
@@ -104,6 +105,7 @@ button {
 }
 
 .subTitle4 {
+  margin-bottom: 30px;
   font-size: 30px;
   line-height: 61px;
   letter-spacing: normal;
@@ -137,6 +139,13 @@ button {
   line-height: 10px;
   letter-spacing: normal;
   font-weight: 400;
+}
+
+.colTitle {
+  font-size: 30px;
+  line-height: 61px;
+  letter-spacing: normal;
+  font-weight: 700;
 }
 
 .hero {
@@ -266,6 +275,7 @@ section.paragraph {
   width: 150px;
   height: 100px;
   padding-top: 10px;
+  padding-right: 10px;
 }
 
 .dividerRow {
@@ -351,7 +361,6 @@ section.paragraph {
   align-content: center;
   color: #000;
   text-align: center;
-  border: 1px solid green;
 }
 
 .blue {

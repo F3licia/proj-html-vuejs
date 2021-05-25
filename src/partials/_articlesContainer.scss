@@ -49,16 +49,18 @@
 }
 
 .tutorialsNguides{
-    background-color: blueviolet;
-    width: 40%;
+    border: 1px solid red;
+    width: 38%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     & div{
-        display: inline;
         border: 1px solid red;
-        min-height: calc(100% / 4);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        height: calc(100% / 4);
         width: 100%;
-    }
+    }  
 }
 

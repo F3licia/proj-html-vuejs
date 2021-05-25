@@ -74,6 +74,29 @@ const app = new Vue({
             },
          
         ],
+        tutorials:[
+            {
+                title:"Questo è il titolo di un articolo",
+                commts:"20",
+                href:"#",
+                img:"./images/post_feat_img_22-147x118.jpg",
+                artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+            },
+            {
+                title:"Questo è il titolo di un articolo ",
+                commts:"15",
+                href:"#",
+                img:"./images/post_feat_img_22-147x118.jpg",
+                artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+            },
+            {
+                title:"Questo è il titolo di un articolo",
+                commts:"21",
+                href:"#",
+                img:"./images/post_feat_img_22-147x118.jpg",
+                artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+            },       
+        ],
         popularTopics:[
             {no:0, title:"", href:"#"},
             {no:1, title:"", href:"#"},

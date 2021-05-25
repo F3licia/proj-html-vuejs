@@ -82,16 +82,15 @@
                 </div>
             </div>
             <div class="tutorialsNguides">
-                <div  class="cardArticle"> 
+                <div>Titoli</div>  <!--titoli colonna-->
+                <div v-for="article in tutorials">
+                    
+                    <img alt="" v-bind:src="article.img">
+                    <p>{{article.title}}</p> 
+                                      
+                 
                 </div>
-                <div  class="cardArticle"> 
-                </div>
-                <div  class="cardArticle"> 
-                </div>
-                <div  class="cardArticle"> 
-                </div>
-            </div>
-
+             </div>
 
 
 

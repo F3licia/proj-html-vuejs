@@ -1,7 +1,16 @@
 .titleDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     text-align: center;
     & p{
         color: #525252;
     }
+}
+
+.underline{
+    width: 90px;
+    height: 2px;
+    background-color: #ff8d61;
 }

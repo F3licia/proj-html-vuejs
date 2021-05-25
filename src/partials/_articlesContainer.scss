@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .cardArticle{
@@ -27,38 +27,41 @@
 .featuredArtcl{
     position: relative;
     color: #ffff;
-
     & img {
         max-width: 100%;
        object-fit:cover
     }
-    & .overlay{
-        top: 50%;
+    & .overlay {
+        margin-top:150px
     }
 }
 
 .overlay{
-    text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
     position: absolute;
+    display: flex;
     left:0;
     right:0;
+    top:0;
+    bottom:0;
+}
+
+.textBox{
+    padding-left: 40px;
+    padding-right: 40px;
+    align-self: center;
+    height:auto;
+    width: 100%;
+    text-align: left;
+    color: #fff;
 }
 
 .reviewsContainer{
     position: relative;
-    color: #ffff;
     width: 65%;
     height: 100%;
     & img {
        max-width: 100%;
        object-fit:cover
-    }
-    & .overlay{
-        bottom: 50%;
-        transform: translateY(50%);
-
     }
 }
 

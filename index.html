@@ -60,9 +60,11 @@
 
             <div class="featuredArtcl">  <!--in primo piano-->
                 <div class="overlay">
-                    <div class="subTitle2">featured article</div>
-                    <div class="subTitle3">{{inEvidence.title}}</div>
-                    <div class="para2">{{inEvidence.artc}}</div>
+                    <div class="textBox">
+                        <p class="subTitle2">featured article</p>
+                        <p class="subTitle3">{{inEvidence.title}}</p>
+                        <p class="para2">{{inEvidence.artc}}</p>
+                    </div>
                 </div>        
                 <img alt="" v-bind:src="inEvidence.img">
             </div>
@@ -79,9 +81,11 @@
             <div class="reviewsContainer">  <!--recensioni-->
   
                 <div class="overlay">
-                    <div class="subTitle2">featured article</div>
-                    <div class="subTitle3">{{inEvidence.title}}</div>
-                    <div class="para2">{{inEvidence.artc}}</div>
+                    <div class="textBox">
+                        <p class="subTitle2">featured article</p>
+                        <p class="subTitle3">{{inEvidence.title}}</p>
+                        <p class="para2">{{inEvidence.artc}}</p>
+                    </div>
                 </div>        
                 <img alt="" v-bind:src="inEvidence.img">
               
@@ -193,6 +197,14 @@
            voluptatum ducimus sint deleniti. Ut minima pariatur quoa.
         </div>
      </div>
+    </section>
+    <section class="gray">
+        <div class="block2">
+            <p class="subTitle4"> Subscrive to our newsletter</p>
+            <div>
+                <input type="text" name="" id=""> <button>ok</button>
+            </div>
+        </div>
     </section>
 
 

@@ -18,3 +18,22 @@ section{
     width: 100%;
     text-align: center;
 }
+
+input{
+height: 35px;
+width: 300px;
+margin-right: 10px;
+border: 1px solid lightgray
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #fff;
+    background-color:  #000;
+    border: 0;
+}
+
+//<input type="text" name="" id=""> <button>ok</button>

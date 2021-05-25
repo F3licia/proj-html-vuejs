@@ -15,7 +15,9 @@
     <main id="app">
 <!--header-->
         <div class="header">
-            <img v-bind:src="logo[0]" alt="">
+            <div class="logo">
+                <img v-bind:src="logo[0]" alt="">
+            </div>          
             <div class="navbar">
                 <ul>
                     <li v-for="link in allPages">

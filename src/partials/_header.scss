@@ -18,12 +18,27 @@
             margin-right:20px
         }
 }
+
+.logo{
+    width: 30%;
+    & img {
+      height: 40px;
+      width: auto;
+
+    }
+}
+
+
 .navbar{
- text-align: right;
-    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    & ul {
+        justify-content: flex-end;
+        display: flex;
+        align-content: flex-end;
+    }
     & li {
-        min-width: 100%;
-        display: inline;
-        margin-left: 60px;
+        margin-left: 20px;
     }
 }

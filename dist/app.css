@@ -118,7 +118,7 @@ button {
 .subTitle2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 6px;
   font-weight: 800;
@@ -127,7 +127,7 @@ button {
 
 .subTitle3 {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 48px;
   line-height: 58px;
   letter-spacing: normal;
   font-weight: 700;
@@ -390,6 +390,14 @@ section.paragraph {
   align-content: center;
   color: #000;
   text-align: center;
+}
+
+.titleDiv {
+  width: 100%;
+  text-align: center;
+}
+.titleDiv p {
+  color: #525252;
 }
 
 .blue {

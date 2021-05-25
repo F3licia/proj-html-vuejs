@@ -286,25 +286,36 @@ section.paragraph {
 }
 
 .tutorialsNguides {
-  width: 30%;
+  height: 100%;
+  max-width: 30%;
   display: flex;
   flex-direction: column;
-}
-.tutorialsNguides div {
-  display: flex;
-  justify-content: flex-start;
-  height: calc(100% / 4);
-  width: 100%;
 }
 .tutorialsNguides p {
   color: #707070;
 }
+.tutorialsNguides div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .tutorialsNguides img {
-  width: 150px;
-  height: 80px;
-  padding-top: 10px;
+  width: 140px;
+  height: 120px;
   padding-right: 10px;
+}
+
+.subCol {
+  display: flex;
+  justify-content: flex-start;
+  height: calc(100% / 3);
+  width: 100%;
+}
+
+.miniText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .dividerRow {

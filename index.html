@@ -62,7 +62,6 @@
 
 <!--colonna articoli-->
 <section>
-    <div class="subTitle4">All the latest news</div>
     <div class="articlesCols">
 
         <div class="row">  <!--card articoli-->
@@ -108,11 +107,12 @@
 
          <!--mini colonna-->     
             <div class="tutorialsNguides"> 
-                <div class="colTitle"> Tutorials & Guides </div> 
-                <div v-for="article in tutorials">
+                <div class="colTitle"> Tutorials & Guides </div>
+                <div class="underline"></div> 
+                <div v-for="article in tutorials" class="subCol">
                     
                     <img alt="" v-bind:src="article.img">
-                    <div class="tutorialsNguides">
+                    <div class="miniText"> 
                         <div class="miniTitle">{{article.title}}</div>
                         <p class="info">{{article.title}}</p>                       
                     </div>

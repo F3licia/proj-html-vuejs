@@ -234,3 +234,9 @@ section.paragraph {
   height: 100px;
   padding: 5px 20px 5px 0px;
 }
+
+.dividerRow {
+  text-align: center;
+  background-color: #191919;
+  color: #fff;
+}

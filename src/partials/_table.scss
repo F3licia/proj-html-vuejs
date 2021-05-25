@@ -1,0 +1,14 @@
+.tableSections{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+}
+.tablecard{
+    margin: 10px;
+    min-width: calc((100% / 4) - 20px);
+    min-height: calc((100% / 2) - 20px);
+    background-color: #fff;
+    border: 1px solid black;
+}

@@ -111,7 +111,7 @@ button {
 .subTitle3 {
   margin-bottom: 20px;
   font-size: 40px;
-  line-height: 61px;
+  line-height: 58px;
   letter-spacing: normal;
   font-weight: 700;
 }
@@ -133,7 +133,7 @@ button {
 
 .para2 {
   font-size: 15px;
-  line-height: 20px;
+  line-height: 28px;
   letter-spacing: normal;
   font-weight: 400;
 }
@@ -238,9 +238,6 @@ section.paragraph {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.featuredArtcl .overlay {
-  margin-top: 150px;
-}
 
 .overlay {
   position: absolute;
@@ -252,8 +249,7 @@ section.paragraph {
 }
 
 .textBox {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 80px;
   align-self: center;
   height: auto;
   width: 100%;

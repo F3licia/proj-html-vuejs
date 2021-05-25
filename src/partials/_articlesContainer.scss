@@ -32,9 +32,6 @@
         max-width: 100%;
        object-fit:cover
     }
-    & .overlay {
-        margin-top:150px
-    }
 }
 
 .overlay{
@@ -47,8 +44,7 @@
 }
 
 .textBox{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 80px;
     align-self: center;
     height:auto;
     width: 100%;
@@ -57,7 +53,6 @@
 }
 
 .reviewsContainer{
-    
     position: relative;
     width: 65%;
     height: 100%;

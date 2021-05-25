@@ -2,6 +2,7 @@ const app = new Vue({
     el: '#app',
     data:{
         logo:["images/logo.png"],
+        hotTopic:[],
         allPages:[
             {no:0, title:"Home", href:"#"},
             {no:1, title:"Apple", href:"#"},
@@ -13,6 +14,7 @@ const app = new Vue({
         articles:[
             {
                 title:"Questo è il titolo di un articolo n1",
+                commts:"4",
                 href:"#",
                 featured: false,
                 img:"./images/post_feat_img_22-700x441.jpg",
@@ -20,6 +22,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo n.2 ma in evidenza",
+                commts:"15",
                 href:"#",
                 featured: true,
                 img:"./images/featured_article_1_bg.jpg",
@@ -27,6 +30,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo n3",
+                commts:"4",
                 href:"#",
                 featured: false,
                 img:"./images/post_feat_img_21-700x441.jpg",
@@ -34,6 +38,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo n4",
+                commts:"4",
                 href:"#",
                 featured: false,
                 img:"./images/post_feat_img_20-700x441.jpg",
@@ -41,6 +46,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo n.5 ma in evidenza",
+                commts:"11",
                 href:"#",
                 featured: false,
                 img:"./images/post_feat_img_20-700x441.jpg",
@@ -48,6 +54,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo n6",
+                commts:"11",
                 href:"#",
                 featured: false,
                 img:"./images/post_feat_img_20-700x441.jpg",
@@ -55,6 +62,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo n7",
+                commts:"10",
                 href:"#",
                 featured: false,
                 img:"./images/post_feat_img_20-700x441.jpg",
@@ -86,6 +94,17 @@ const app = new Vue({
             {no:0, title:"", href:"#"},
             {no:0, title:"", href:"#"},
         ]
-    }
+    },
+    methods: {              //ritorna tre articoli con più di 10 commenti 
+        filteredHotTopic() {  
+            this.hotTopic= this.articles.filter((artc) => {           
+                return (artc.commts >= 10) * 3
+            });
+            return hotTopic;
+        },
+    },
+    mounted()  {
+         this.filteredHotTopic()
+    }, 
         
 }) 

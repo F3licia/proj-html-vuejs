@@ -47,10 +47,11 @@
     <div class="articlesCols">
 
         <div class="row">
-            <div v-for="article in articles" v-if="!article.featured"  class="cardArticle">
+            <div v-for="article in hotTopic" v-if="!article.featured"  class="cardArticle">
                 
                     <img alt="" v-bind:src="article.img">
                     <p>{{article.title}}</p>
+                    <p>Comments: {{article.commts}}</p>
                     <p>{{article.artc}}</p>            
             </div>
             

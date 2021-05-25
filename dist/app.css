@@ -154,14 +154,13 @@ section.paragraph {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: royalblue;
 }
 
 .cardArticle {
   border: 1px solid red;
   width: 30%;
-  min-height: 400px;
   padding: 5px;
-  margin-bottom: 600px;
   display: flex;
   flex-direction: column;
 }
@@ -175,8 +174,7 @@ section.paragraph {
 }
 
 .featuredArtcl {
-  position: absolute;
-  margin-top: 400px;
+  position: relative;
 }
 .featuredArtcl img {
   max-width: 100%;

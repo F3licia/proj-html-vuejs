@@ -39,6 +39,27 @@ const app = new Vue({
                 img:"/images/post_feat_img_20-700x441.jpg",
                 artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
             },
+            {
+                title:"Questo è il titolo di un articolo n.5 ma in evidenza",
+                href:"#",
+                featured: false,
+                img:"/images/post_feat_img_20-700x441.jpg",
+                artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+            },
+            {
+                title:"Questo è il titolo di un articolo n6",
+                href:"#",
+                featured: false,
+                img:"/images/post_feat_img_20-700x441.jpg",
+                artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+            },
+            {
+                title:"Questo è il titolo di un articolo n7",
+                href:"#",
+                featured: false,
+                img:"/images/post_feat_img_20-700x441.jpg",
+                artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+            },
          
         ],
         popularTopics:[

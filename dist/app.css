@@ -14,6 +14,11 @@ section {
   padding-right: 150px;
 }
 
+.centerTitles {
+  width: 100%;
+  text-align: center;
+}
+
 .header {
   background-color: #26a9bd;
   padding-left: 150px;
@@ -246,6 +251,8 @@ section.paragraph {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .tablecard {
@@ -283,6 +290,19 @@ section.paragraph {
   width: 100%;
   align-self: flex-end;
   margin-bottom: 25px;
+}
+
+.community {
+  height: 70vh;
+  background-image: url(../../images/join_now_cta_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.block2 {
+  height: 30vh;
+  background-color: #f2f2f2;
 }
 
 .blue {

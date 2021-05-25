@@ -57,8 +57,8 @@
                 
                     <img alt="" v-bind:src="article.img">
                     <div class="miniTitle">{{article.title}}</div>
-                    <p>Comments: {{article.commts}}</p>
-                    <div class="para2">{{article.artc}}</div>            
+                    <p class="info">Comments: {{article.commts}}</p>
+                    <div class="para2">{{article.artc.slice(0, 100)+"..."}}</div>            
             </div>
 
             <div class="featuredArtcl">  <!--in primo piano-->
@@ -66,7 +66,7 @@
                     <div class="textBox">
                         <p class="subTitle2">featured article</p>
                         <p class="subTitle3">{{inEvidence.title}}</p>
-                        <p class="para2">{{inEvidence.artc}}</p>
+                        <p class="para2">{{inEvidence.artc.slice(0, 100)+"..."}}</p>
                     </div>
                 </div>        
                 <img alt="" v-bind:src="inEvidence.img">
@@ -75,8 +75,8 @@
             <div v-for="article in rowHotTopic.slice(3, 6)"  class="cardArticle">    <!--card articoli-->
                 <img alt="" v-bind:src="article.img">
                 <div class="miniTitle">{{article.title}}</div>
-                <p>Comments: {{article.commts}}</p>
-                <div class="para2">{{article.artc}}</div>            
+                <p class="info">Comments: {{article.commts}}</p>
+                <div class="para2">{{article.artc.slice(0, 100)+"..."}}</div>            
             </div>
         </div> 
         
@@ -87,7 +87,7 @@
                     <div class="textBox">
                         <p class="subTitle2">featured article</p>
                         <p class="subTitle3">{{inEvidence.title}}</p>
-                        <p class="para2">{{inEvidence.artc}}</p>
+                        <p class="para2">{{inEvidence.artc.slice(0, 100)+"..."}}</p>
                     </div>
                 </div>        
                 <img alt="" v-bind:src="inEvidence.img">             
@@ -220,7 +220,7 @@
 
 
 
-        
+
     </section>
 
 

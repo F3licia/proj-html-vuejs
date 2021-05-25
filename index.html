@@ -47,22 +47,28 @@
     <div class="articlesCols">
 
         <div class="row">
-            <div v-for="article in hotTopic" v-if="!article.featured"  class="cardArticle">
+            <div v-for="article in firstRowHotTopic.slice(0, 3)"  class="cardArticle">
                 
                     <img alt="" v-bind:src="article.img">
                     <p>{{article.title}}</p>
                     <p>Comments: {{article.commts}}</p>
                     <p>{{article.artc}}</p>            
             </div>
-            
-            <div v-for="article in articles" v-if="article.featured" class="featuredArtcl">
+
+            <div class="featuredArtcl">
                 <div class="overlay">
-                <p>{{article.title}}</p>
-                <p>{{article.artc}} <p>
+                <p>{{inEvidence.title}}</p>
                 </div>        
-                <img alt="" v-bind:src="article.img">
-          
+                <img alt="" v-bind:src="inEvidence.img">
             </div>
+            
+            <div v-for="article in firstRowHotTopic.slice(3, 6)"  class="cardArticle">
+                
+                <img alt="" v-bind:src="article.img">
+                <p>{{article.title}}</p>
+                <p>Comments: {{article.commts}}</p>
+                <p>{{article.artc}}</p>            
+        </div>
         </div>  
 
     </div>

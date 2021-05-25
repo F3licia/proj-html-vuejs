@@ -61,7 +61,6 @@ section {
   line-height: 34px;
   letter-spacing: 1px;
   font-weight: 400;
-  text-transform: capitalize;
 }
 
 .subTitle2 {
@@ -78,8 +77,14 @@ section {
   font-size: 48px;
   line-height: 61px;
   letter-spacing: normal;
-  font-weight: 500;
-  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.subTitle4 {
+  font-size: 30px;
+  line-height: 61px;
+  letter-spacing: normal;
+  font-weight: 700;
 }
 
 .para1 {
@@ -87,7 +92,6 @@ section {
   line-height: 60px;
   letter-spacing: normal;
   font-weight: 300;
-  text-transform: capitalize;
 }
 
 .para2 {
@@ -95,7 +99,6 @@ section {
   line-height: 20px;
   letter-spacing: normal;
   font-weight: 400;
-  text-transform: capitalize;
 }
 
 .miniTitle {
@@ -104,7 +107,6 @@ section {
   line-height: 24px;
   letter-spacing: normal;
   font-weight: 800;
-  text-transform: capitalize;
 }
 
 .hero {
@@ -155,11 +157,14 @@ section.paragraph {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .cardArticle {
   width: 30%;
   padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -192,23 +197,24 @@ section.paragraph {
 }
 
 .reviewsContainer {
-  width: 60%;
-  min-height: 300px;
-  background-color: 0;
+  width: 65%;
+  height: 100%;
 }
 
 .tutorialsNguides {
-  border: 1px solid red;
-  width: 38%;
+  padding: 10px 10px 10px 0px;
+  width: 30%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 .tutorialsNguides div {
-  border: 1px solid red;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: flex-start;
   height: calc(100% / 4);
   width: 100%;
+}
+
+.tutorialsNguides img {
+  width: 150px;
+  padding: 5px 20px 5px 0px;
 }

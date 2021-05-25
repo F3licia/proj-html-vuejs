@@ -57,7 +57,9 @@
 
             <div class="featuredArtcl">  <!--in primo piano-->
                 <div class="overlay">
-                <p>{{inEvidence.title}}</p>
+                    <div class="subTitle2">featured article</div>
+                    <div class="subTitle3">{{inEvidence.title}}</div>
+                    <div class="para2">{{inEvidence.artc}}</div>
                 </div>        
                 <img alt="" v-bind:src="inEvidence.img">
             </div>
@@ -75,28 +77,27 @@
 
                 <div class="featuredArtcl">
                     <div class="overlay">
-                    <p>{{inEvidence.title}}</p>
+                        <div class="subTitle2">featured article</div>
+                        <div class="subTitle3">{{inEvidence.title}}</div>
+                        <div class="para2">{{inEvidence.artc}}</div>
                     </div>        
                     <img alt="" v-bind:src="inEvidence.img">
 
                 </div>
             </div>
-            <div class="tutorialsNguides">
-                <div>Titoli</div>  <!--titoli colonna-->
+            <div class="tutorialsNguides subTitle4">
+               Tutorials & Guides <!--titoli colonna-->
                 <div v-for="article in tutorials">
                     
                     <img alt="" v-bind:src="article.img">
-                    <p>{{article.title}}</p> 
+                    <div class="tutorialsNguides">
+                        <div class="miniTitle">{{article.title}}</div>
+                        <div class="para2">{{article.title}}</div>
+                    </div>
                                       
                  
                 </div>
              </div>
-
-
-
-
-
-
 
         </div>
 

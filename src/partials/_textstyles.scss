@@ -13,7 +13,6 @@
     line-height: 34px;
     letter-spacing: 1px;
     font-weight: 400;
-    text-transform: capitalize; 
 }
 
 .subTitle2{
@@ -30,8 +29,16 @@
     font-size: 48px;
     line-height: 61px;
     letter-spacing: normal;
-    font-weight: 500;
-    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.subTitle4{
+    font-size: 30px;
+    line-height: 61px;
+    letter-spacing: normal;
+    font-weight: 700;
+
 }
 
 .para1{
@@ -39,7 +46,6 @@
     line-height: 60px;
     letter-spacing: normal;
     font-weight: 300;
-    text-transform: capitalize; 
 }
 
 .para2{
@@ -47,7 +53,6 @@
     line-height: 20px;
     letter-spacing: normal;
     font-weight: 400;
-    text-transform: capitalize; 
 }
 
 .miniTitle{
@@ -55,6 +60,5 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: normal;
-    font-weight: 800;
-    text-transform: capitalize; 
+    font-weight: 800; 
 }

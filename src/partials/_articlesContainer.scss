@@ -4,12 +4,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .cardArticle{
     width: 30%;
     padding: 5px;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
    
@@ -42,24 +44,26 @@
 }
 
 .reviewsContainer{
-    width: 60%;
-    min-height: 300px;
-    background-color: blue($color: #000000);
+    width: 65%;
+    height: 100%;
 }
 
 .tutorialsNguides{
-    border: 1px solid red;
-    width: 38%;
+    padding: 10px 10px 10px 0px;
+    width: 30%;
     display: flex;
-    flex-wrap: wrap;
+
     flex-direction: column;
     & div{
-        border: 1px solid red;
         display: flex;
-        flex-wrap: nowrap;
         justify-content: flex-start;
         height: calc(100% / 4);
         width: 100%;
     }  
+}
+
+.tutorialsNguides img{
+    width: 150px;
+    padding: 5px 20px 5px 0px;
 }
 

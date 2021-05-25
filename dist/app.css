@@ -282,10 +282,13 @@ section.paragraph {
   height: calc(100% / 4);
   width: 100%;
 }
+.tutorialsNguides p {
+  color: #707070;
+}
 
 .tutorialsNguides img {
   width: 150px;
-  height: 100px;
+  height: 80px;
   padding-top: 10px;
   padding-right: 10px;
 }

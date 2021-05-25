@@ -85,15 +85,16 @@
   
                 <div class="overlay">
                     <div class="textBox">
-                        <p class="subTitle2">featured article</p>
-                        <p class="subTitle3">{{inEvidence.title}}</p>
-                        <p class="para2">{{inEvidence.artc.slice(0, 100)+"..."}}</p>
+                        <p class="subTitle2">Reviewed products</p>
+                        <p class="subTitle3">{{review.title}}</p>
+                        <p class="para2">{{review.artc.slice(0, 100)+"..."}}</p>
                     </div>
                 </div>        
-                <img alt="" v-bind:src="inEvidence.img">             
+                <img alt="" v-bind:src="review.img">             
             </div>
-                       
-            <div class="tutorialsNguides">  <!--titoli colonna-->
+
+         <!--mini colonna-->     
+            <div class="tutorialsNguides"> 
                 <div class="colTitle"> Tutorials & Guides </div> 
                 <div v-for="article in tutorials">
                     

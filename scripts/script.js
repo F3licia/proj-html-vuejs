@@ -20,6 +20,13 @@ const app = new Vue({
             img:"./images/featured_article_1_bg.jpg",
             artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
         },
+        review:{
+            title:"Questo è il titolo di un articolo in evidenza",
+            commts:"15",
+            href:"#",
+            img:"./images/featured_article_2_bg.jpg",
+            artc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eum culpa itaque saepe unde asperiores atque nobis temporibus facere minus voluptate, labore odio fugiat, veniam, sint placeat alias tempora quae.",
+        },
 
         articles:[
             {

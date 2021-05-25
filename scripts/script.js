@@ -2,8 +2,7 @@ const app = new Vue({
     el: '#app',
     data:{
         logo:["images/logo.png"],
-        firstRowHotTopic:[],
-        secRowHotTopic:[],
+        rowHotTopic:[],
        
         allPages:[
             {no:0, title:"Home", href:"#"},
@@ -101,27 +100,20 @@ const app = new Vue({
         ]
     },
     methods: {              //ritorna tre articoli con più di 10 commenti 
-        firstHotTopic() {  
-            this.firstRowHotTopic= this.articles.filter((artc) => {           
+        hotTopic() {  
+            this.rowHotTopic= this.articles.filter((artc) => {           
                 return (artc.commts >= 10) 
             });
-            return firstRowHotTopic;
+            return rowHotTopic;
         },
-        secondHotTopic() {  
-            this.secRowhotTopic= this.articles.filter((artc) => {     
-                    return (artc.commts >= 10)
-               
-            });
-            return secRowhotTopic;
-        },
+
         getFeautered() {  
 
         },
 
     },
     mounted()  {
-         this.firstHotTopic();
-         this.secondHotTopic();
+         this.hotTopic();
 
     }, 
     

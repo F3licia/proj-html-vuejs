@@ -41,3 +41,24 @@
     left:0;
     right:0;
 }
+
+.reviewsContainer{
+    width: 60%;
+    min-height: 300px;
+    background-color: blue($color: #000000);
+}
+
+.tutorialsNguides{
+    background-color: blueviolet;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    & div{
+        display: inline;
+        border: 1px solid red;
+        min-height: calc(100% / 4);
+        width: 100%;
+    }
+}
+

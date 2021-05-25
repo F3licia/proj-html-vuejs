@@ -46,8 +46,8 @@
 <section>
     <div class="articlesCols">
 
-        <div class="row">
-            <div v-for="article in firstRowHotTopic.slice(0, 3)"  class="cardArticle">
+        <div class="row">  <!--card articoli-->
+            <div v-for="article in rowHotTopic.slice(0, 3)"  class="cardArticle">
                 
                     <img alt="" v-bind:src="article.img">
                     <p>{{article.title}}</p>
@@ -55,21 +55,51 @@
                     <p>{{article.artc}}</p>            
             </div>
 
-            <div class="featuredArtcl">
+            <div class="featuredArtcl">  <!--in primo piano-->
                 <div class="overlay">
                 <p>{{inEvidence.title}}</p>
                 </div>        
                 <img alt="" v-bind:src="inEvidence.img">
             </div>
             
-            <div v-for="article in firstRowHotTopic.slice(3, 6)"  class="cardArticle">
-                
+            <div v-for="article in rowHotTopic.slice(3, 6)"  class="cardArticle">    <!--card articoli-->
                 <img alt="" v-bind:src="article.img">
                 <p>{{article.title}}</p>
                 <p>Comments: {{article.commts}}</p>
                 <p>{{article.artc}}</p>            
+            </div>
+        </div> 
+        
+        <div class="row">    
+            <div class="reviewsContainer">  <!--recensioni-->
+
+                <div class="featuredArtcl">
+                    <div class="overlay">
+                    <p>{{inEvidence.title}}</p>
+                    </div>        
+                    <img alt="" v-bind:src="inEvidence.img">
+
+                </div>
+            </div>
+            <div class="tutorialsNguides">
+                <div  class="cardArticle"> 
+                </div>
+                <div  class="cardArticle"> 
+                </div>
+                <div  class="cardArticle"> 
+                </div>
+                <div  class="cardArticle"> 
+                </div>
+            </div>
+
+
+
+
+
+
+
+
         </div>
-        </div>  
 
     </div>
     </section>

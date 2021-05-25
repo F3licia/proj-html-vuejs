@@ -5,4 +5,20 @@
 @import "partials/grayPara";
 @import "partials/articlesContainer";
 @import "partials/divider";
-@import "partials/table"
+@import "partials/table";
+
+
+$firsrCol: #26a9bd;
+$secondCol: #f2f2f2;
+$thirdCol: #ff8d61;
+
+.blue{
+    background-color: $firsrCol;
+    }
+    .gray{
+        background-color: $secondCol;
+    }
+    .orange{
+        background-color: $thirdCol;
+    }
+    

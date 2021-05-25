@@ -246,13 +246,25 @@ section.paragraph {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: pink;
 }
 
 .tablecard {
+  text-align: center;
   margin: 10px;
   min-width: calc((100% / 4) - 20px);
   min-height: calc((100% / 2) - 20px);
   background-color: #fff;
-  border: 1px solid black;
+  border-top: 2px solid #26a9bd;
+}
+
+.blue {
+  background-color: #26a9bd;
+}
+
+.gray {
+  background-color: #f2f2f2;
+}
+
+.orange {
+  background-color: #ff8d61;
 }

@@ -49,7 +49,7 @@
                 sequi error dolore facere quod dolores. Id non quisquam
             </p>
         </div>
-    </div>
+    </div>sections
 </section>
 
 <!--blocco titoli centrati-->
@@ -159,77 +159,15 @@
         </section>
 
         <div class="tableSections">
-            <div class="tablecard">
+            <div v-for="section in sections" class="tablecard">
                 <div class="background">
-                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                    <i :class="section.class" aria-hidden="true"></i>
                 </div>
-                <div class="tag">
-                    <h4>prova</h4>
+                <div class="tag miniTitle">
+                    {{section.title}}
                 </div>        
             </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-apple" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div>        
-            </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-windows" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div>        
-            </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-android" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div>        
-            </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-coffee" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div>        
-            </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div>        
-            </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div>        
-            </div>
-
-            <div class="tablecard">
-                <div class="background">
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                </div>
-                <div class="tag">
-                    <h4>prova</h4>
-                </div> 
-            </div>       
+      
         </div>
     </section>
 

@@ -80,6 +80,50 @@ const app = new Vue({
             },
          
         ],
+
+        sections:[
+            {
+                title:"News & Community",
+                class:"fa fa-file-text-o",
+                href:"#",
+            },
+            {
+                title:"Apple Forum",
+                class:"fa fa-apple",
+                href:"#",
+            },
+            {
+                title:"Microsoft Forum",
+                class:"fa fa-windows",
+                href:"#",
+            },
+            {
+                title:"Android Forum",
+                class:"fa fa-android",
+                href:"#",
+            },
+            {
+                title:"General Discussion",
+                class:"fa fa-coffee",
+                href:"#",
+            },
+            {
+                title:"Apps & Software",
+                class:"fa fa-cubes",
+                href:"#",
+            },
+            {
+                title:"Gadgets & Stuff",
+                class:"fa fa-laptop",
+                href:"#",
+            },
+            {
+                title:"Tutorials & Guides",
+                class:"fa fa-wrench",
+                href:"#",
+            }, 
+        ],
+
         tutorials:[
             {
                 title:"Questo è il titolo di un articolo",

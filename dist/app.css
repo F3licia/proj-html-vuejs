@@ -43,6 +43,10 @@ button {
   color: #fff;
   background-color: #191919;
 }
+.buttonForm:hover {
+  transition: 0.3s;
+  background-color: #fc8c5e;
+}
 
 .heroButton {
   font-size: 18px;
@@ -52,6 +56,10 @@ button {
   color: #fff;
   background-color: #27aabe;
 }
+.heroButton:hover {
+  transition: 0.3s;
+  background-color: #fc8c5e;
+}
 
 .menuButton {
   font-size: 13px;
@@ -60,12 +68,20 @@ button {
   color: #fff;
   background-color: #191919;
 }
+.menuButton:hover {
+  transition: 0.3s;
+  background-color: #fc8c5e;
+}
 
 .signupButton {
   font-size: 18px;
   height: 176px;
   width: 55px;
   background-color: #27aabe;
+}
+.signupButton:hover {
+  transition: 0.3s;
+  background-color: #fc8c5e;
 }
 
 .buttonArticle {
@@ -75,6 +91,10 @@ button {
   color: #fff;
   background-color: #191919;
 }
+.buttonArticle:hover {
+  transition: 0.3s;
+  background-color: #fc8c5e;
+}
 
 .buttonLarge {
   height: 160px;
@@ -82,6 +102,10 @@ button {
   font-size: 18px;
   color: #fff;
   background-color: transparent;
+}
+.buttonLarge:hover {
+  transition: 0.3s;
+  background-color: #27aabe;
 }
 
 .centerButton {
@@ -275,7 +299,7 @@ button .fa {
 }
 
 section.paragraph {
-  background-color: #eee3d6;
+  background-color: #f2f2f2;
 }
 
 .paragraph div {

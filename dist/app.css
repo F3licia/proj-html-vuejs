@@ -173,14 +173,18 @@ button {
   align-content: flex-end;
   align-items: center;
 }
+.navbar button {
+  margin-left: 25px;
+}
+
 .navbar li {
-  z-index: 2;
+  opacity: 80%;
   position: relative;
   padding: 10px;
   margin-left: 25px;
 }
-.navbar button {
-  margin-left: 25px;
+.navbar li:hover {
+  opacity: 100%;
 }
 
 li:hover::after {

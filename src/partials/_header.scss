@@ -47,16 +47,21 @@
         align-content: flex-end;
        align-items: center;
     }
-    & li {
-        z-index: 2;
-        position: relative;
-        padding: 10px;
-        margin-left: 25px;
-    }
      button {
         margin-left: 25px;
     }
 }
+
+.navbar li {
+    opacity: 80%;
+    position: relative;
+    padding: 10px;
+    margin-left: 25px;
+     &:hover{
+         opacity: 100%;
+        }
+}
+
 
 li:hover::after{
     opacity: 100%;

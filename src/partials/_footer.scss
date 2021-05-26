@@ -5,13 +5,16 @@
 
 .footerCol{
     width: calc(100% / 4);
-    padding: 10px;
-    background-color: turquoise;
+    padding: 30px;
+
 }
 
   .footer li { 
     position: relative;
     padding: 0px 0px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
   }
   
   .footer li .fa.fa-chevron-right{

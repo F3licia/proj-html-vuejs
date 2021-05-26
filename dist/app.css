@@ -508,6 +508,7 @@ section.paragraph {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .socialTable {
@@ -519,6 +520,10 @@ section.paragraph {
 }
 
 .socialBox {
+  text-align: center;
+  line-height: 60px;
+  padding-right: 10px;
+  font-size: 25px;
   width: 60px;
   height: 60px;
   border-radius: 50%;

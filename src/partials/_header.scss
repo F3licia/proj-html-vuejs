@@ -63,7 +63,7 @@
 }
 
 
-li:hover::after{
+.navbar li:hover::after{
     opacity: 100%;
     content: "";
     position: absolute;

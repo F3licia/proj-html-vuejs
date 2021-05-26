@@ -1,10 +1,7 @@
-
 .footer{
     width: 100%;
     display: flex;
 }
-
-
 
 .footerCol{
     width: calc(100% / 4);
@@ -12,7 +9,6 @@
     background-color: turquoise;
 }
 
-  
   .footer li { 
     position: relative;
     padding: 0px 0px 10px 10px;
@@ -23,7 +19,9 @@
       font-weight: lighter;
       position: absolute;
       top: 5px;
-      left: 0px
+      left: -2px
   }
 
-  
+  .footer p{
+      color: #525252;
+  }

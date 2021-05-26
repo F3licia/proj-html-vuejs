@@ -39,6 +39,7 @@ button {
   height: 54px;
   width: 248px;
   font-size: 18px;
+  letter-spacing: 2px;
   color: #fff;
   background-color: #191919;
 }
@@ -481,7 +482,11 @@ section.paragraph {
   font-weight: lighter;
   position: absolute;
   top: 5px;
-  left: 0px;
+  left: -2px;
+}
+
+.footer p {
+  color: #525252;
 }
 
 .blue {

@@ -153,13 +153,6 @@ button {
 .header a {
   text-decoration: none;
   color: #fff;
-  opacity: 80%;
-}
-.header a:hover {
-  opacity: 100%;
-}
-.header a:active {
-  opacity: 100%;
 }
 
 .logo {
@@ -285,14 +278,6 @@ button .fa {
   line-height: 61px;
   letter-spacing: normal;
   font-weight: 700;
-}
-
-.miniTitleCol {
-  padding-top: 10px;
-  font-size: 18px;
-  line-height: 0px;
-  letter-spacing: normal;
-  font-weight: 800;
 }
 
 .hero {

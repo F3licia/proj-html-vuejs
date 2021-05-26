@@ -198,8 +198,8 @@
         <div class="block2">
             <p class="subTitle4"> Subscrive to our newsletter</p>
             <div>
-                <input type="text" name="" id="" placeholder="insert your email*">
-                <button class="buttonForm">Send</button>
+                <input type="text" name="userMail" v-model="signUpMail" v-on:keyup.enter="getMailUser" placeholder="insert your email*">
+                <button @click="getMailUser"  class="buttonForm">Send</button>
             </div>
         </div>
     </section>

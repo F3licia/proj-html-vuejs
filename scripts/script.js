@@ -3,7 +3,8 @@ const app = new Vue({
     data:{
         logo:["images/logo-2x.png"],
         rowHotTopic:[],
-       
+        signUpMail:"",
+
         allPages:[
             {no:0, title:"Home", href:"#"},
             {no:1, title:"Apple", href:"#"},
@@ -159,13 +160,21 @@ const app = new Vue({
     },
     methods: {              //ritorna articoli con più di 10 commenti 
         hotTopic() {  
-            this.rowHotTopic= this.articles.filter((artc) => {           
+            this.rowHotTopic = this.articles.filter((artc) => {           
                 return (artc.commts >= 10) 
             });
-            return rowHotTopic;
+            return this.rowHotTopic;
         },
 
         getFeautered() {  
+        },
+        getMailUser() { 
+            if(this.signUpMail.includes("@", "."))
+            {              
+                 alert("mail di conferma inviata a" + this.signUpMail )
+                 this.signUpMail ="";
+            }
+            else{ alert("mail non valida")}
 
         },
 

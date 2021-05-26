@@ -552,6 +552,7 @@ section.paragraph {
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #aeaeae;
+  cursor: pointer;
 }
 
 .footer li .fa.fa-chevron-right {
@@ -591,6 +592,7 @@ section.paragraph {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .facebook {

@@ -46,6 +46,9 @@ button {
   font-size: 13px;
   height: 30px;
   width: 97px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #000;
 }
 
 .signupButton {
@@ -92,8 +95,9 @@ button {
 .navbar ul {
   display: flex;
   align-content: flex-end;
+  align-items: center;
 }
-.navbar li {
+.navbar li, .navbar button {
   margin-left: 20px;
 }
 
@@ -373,7 +377,7 @@ section.paragraph {
 .community {
   position: relative;
   height: 70vh;
-  background-image: url(../../images/join_now_cta_bg.jpg);
+  background-image: url("../images/join_now_cta_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

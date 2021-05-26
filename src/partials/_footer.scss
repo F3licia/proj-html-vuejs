@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footerCol{
@@ -28,3 +29,40 @@
   .footer p{
       color: #525252;
   }
+
+//-------------//
+.copyright{
+    padding-top: 30px;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialTable{
+    display: flex;
+    color: #fff;
+    & * {
+        margin-left: 10px;
+    } 
+}
+
+  .socialBox{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+  }
+
+
+.facebook{
+    background-color: #3c5998;
+}
+.twetter{
+    background-color: #54acee;
+}
+.instagram{
+    background-color: #3f729b;
+}
+.youtube{
+    background-color: #cd201f;
+}

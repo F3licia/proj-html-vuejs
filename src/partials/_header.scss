@@ -18,8 +18,21 @@
             margin-right:20px
         }
         & .fa-search{
+            font-size: 10px;
             margin-left:20px;
             cursor: pointer;
+        }
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 80%;
+        &:hover{
+            opacity: 100%;
+        }
+        &:active{
+            opacity: 100%;
         }
 }
 
@@ -47,14 +60,3 @@
 
 }
 
-.header a {
-    text-decoration: none;
-    color: #fff;
-    opacity: 80%;
-        &:hover{
-            opacity: 100%;
-        }
-        &:active{
-            opacity: 100%;
-        }
-}

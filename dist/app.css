@@ -114,8 +114,21 @@ button {
   margin-right: 20px;
 }
 .header .fa-search {
+  font-size: 10px;
   margin-left: 20px;
   cursor: pointer;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 80%;
+}
+.header a:hover {
+  opacity: 100%;
+}
+.header a:active {
+  opacity: 100%;
 }
 
 .logo {
@@ -138,18 +151,6 @@ button {
 }
 .navbar li, .navbar button {
   margin-left: 25px;
-}
-
-.header a {
-  text-decoration: none;
-  color: #fff;
-  opacity: 80%;
-}
-.header a:hover {
-  opacity: 100%;
-}
-.header a:active {
-  opacity: 100%;
 }
 
 * {

@@ -48,12 +48,27 @@
        align-items: center;
     }
     & li {
+        z-index: 2;
+        position: relative;
         padding: 10px;
         margin-left: 25px;
     }
      button {
         margin-left: 25px;
     }
-
 }
 
+li:hover::after{
+    opacity: 100%;
+    content: "";
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top:55px; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 24px 0 24px;
+    border-color: #27aabe transparent transparent transparent;
+
+}

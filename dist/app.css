@@ -42,6 +42,17 @@ button {
   background-color: #000;
 }
 
+.heroButton {
+  padding: 15px 40px 20px 40px;
+  font-size: 18px;
+  line-height: normal;
+  height: 55px;
+  width: 253px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #26a9bd;
+}
+
 .menuButton {
   font-size: 13px;
   height: 30px;
@@ -83,7 +94,7 @@ button {
   width: 30%;
 }
 .logo img {
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 
@@ -98,7 +109,7 @@ button {
   align-items: center;
 }
 .navbar li, .navbar button {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 * {
@@ -113,6 +124,8 @@ button {
 }
 
 .subTitle1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 1px;

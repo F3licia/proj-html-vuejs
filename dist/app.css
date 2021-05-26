@@ -276,6 +276,7 @@ section.paragraph {
 }
 
 .row {
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -333,12 +334,14 @@ section.paragraph {
 }
 
 .reviewsContainer {
+  background-color: #383838;
   position: relative;
   width: 65%;
-  height: 100%;
+  height: 450px;
 }
 .reviewsContainer img {
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -353,13 +356,13 @@ section.paragraph {
   color: #707070;
 }
 .tutorialsNguides div {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .tutorialsNguides img {
   width: 140px;
-  height: 120px;
+  height: 100px;
   padding-right: 10px;
 }
 

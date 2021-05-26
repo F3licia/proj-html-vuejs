@@ -266,7 +266,6 @@ button {
 
 .colTitle {
   font-size: 30px;
-  line-height: 61px;
   letter-spacing: normal;
   font-weight: 700;
 }
@@ -324,7 +323,7 @@ section.paragraph {
 }
 
 .paragraph .para1 {
-  color: #525252;
+  color: #62676c;
 }
 
 .row {
@@ -350,7 +349,7 @@ section.paragraph {
   height: auto;
 }
 .cardArticle p {
-  color: #aeaeae;
+  color: #62676c;
   width: 100%;
   padding: 5px;
 }
@@ -405,7 +404,7 @@ section.paragraph {
   flex-direction: column;
 }
 .tutorialsNguides p {
-  color: #aeaeae;
+  color: #62676c;
 }
 .tutorialsNguides div {
   margin-top: 0px;
@@ -454,8 +453,8 @@ section.paragraph {
   flex-direction: row;
   text-align: center;
   margin: 10px;
-  min-width: calc((100% / 4) - 20px);
-  min-height: calc((100% / 2) - 20px);
+  width: calc((100% / 4) - 20px);
+  height: calc((100% / 2) - 20px);
   background-color: #fff;
   border-top: 2px solid #26a9bd;
 }
@@ -470,7 +469,7 @@ section.paragraph {
 
 .background {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90px;
@@ -484,7 +483,9 @@ section.paragraph {
   text-align: center;
   width: 100%;
   align-self: flex-end;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .community {

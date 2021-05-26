@@ -1,0 +1,13 @@
+
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+
+
+.footerCol{
+    width: calc(100% / 4);
+    padding: 10px;
+    background-color: turquoise;
+}

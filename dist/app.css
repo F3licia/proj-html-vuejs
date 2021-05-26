@@ -460,6 +460,17 @@ section.paragraph {
   background-color: #ff8d61;
 }
 
+.footer {
+  width: 100%;
+  display: flex;
+}
+
+.footerCol {
+  width: calc(100% / 4);
+  padding: 10px;
+  background-color: turquoise;
+}
+
 .blue {
   background-color: #26a9bd;
 }

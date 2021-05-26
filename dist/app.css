@@ -84,6 +84,15 @@ button {
   background-color: transparent;
 }
 
+.centerButton {
+  font-size: 18px;
+  line-height: normal;
+  height: 55px;
+  width: 150px;
+  color: #fff;
+  background-color: #26a9bd;
+}
+
 .header {
   background-color: #26a9bd;
   padding-left: 150px;
@@ -437,11 +446,12 @@ section.paragraph {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
+  text-align: center;
 }
 
 .block2 {

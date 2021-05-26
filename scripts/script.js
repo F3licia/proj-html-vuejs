@@ -1,7 +1,7 @@
 const app = new Vue({
     el: '#app',
     data:{
-        logo:["images/logo.png"],
+        logo:["images/logo-2x.png"],
         rowHotTopic:[],
        
         allPages:[

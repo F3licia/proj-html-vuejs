@@ -17,6 +17,10 @@
         & img{
             margin-right:20px
         }
+        & .fa-search{
+            margin-left:20px;
+            cursor: pointer;
+        }
 }
 
 .logo{
@@ -41,4 +45,16 @@
         margin-left: 25px;
     }
 
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 80%;
+        &:hover{
+            opacity: 100%;
+        }
+        &:active{
+            opacity: 100%;
+        }
 }

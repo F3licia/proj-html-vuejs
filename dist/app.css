@@ -113,6 +113,10 @@ button {
 .header img {
   margin-right: 20px;
 }
+.header .fa-search {
+  margin-left: 20px;
+  cursor: pointer;
+}
 
 .logo {
   width: 30%;
@@ -134,6 +138,18 @@ button {
 }
 .navbar li, .navbar button {
   margin-left: 25px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 80%;
+}
+.header a:hover {
+  opacity: 100%;
+}
+.header a:active {
+  opacity: 100%;
 }
 
 * {

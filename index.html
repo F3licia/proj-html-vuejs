@@ -274,26 +274,33 @@
 
 
         <div class="footerCol">
-
-            <div v-for="item in rowHotTopic.slice(0, 3)" class="item">
-                <i class="fa fa-chevron-right" aria-hidden="true"></i> {{item.title}} 
-            </div>
+            <ul>
+                <li v-for="item in rowHotTopic.slice(0, 3)" class="item">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    {{item.title}} 
+                </li>
+            </ul>
 
         </div>
-        <div class="footerCol">
 
-            <div v-for="item in recentTopics.slice(0, 3)" class="item">
-                <i class="fa fa-chevron-right" aria-hidden="true"></i> {{item.title}} 
-            </div>
+        <div class="footerCol">
+            <ul>
+                <li v-for="item in recentTopics.slice(0, 3)" class="item">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    {{item.title}} 
+                </li>
+            </ul>
 
         </div>
        
         <div class="footerCol">
 
-            
-            <div v-for="item in latestReply.slice(0, 3)" class="item">
-                <i class="fa fa-chevron-right" aria-hidden="true"></i> {{item.reply}} 
-            </div>
+            <ul>
+                <li v-for="item in latestReply.slice(0, 3)" class="item">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    {{item.reply}} 
+                </li>
+            </ul>
 
         </div>
 

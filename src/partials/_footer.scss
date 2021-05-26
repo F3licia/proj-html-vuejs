@@ -11,3 +11,19 @@
     padding: 10px;
     background-color: turquoise;
 }
+
+  
+  .footer li { 
+    position: relative;
+    padding: 0px 0px 10px 10px;
+  }
+  
+  .footer li .fa.fa-chevron-right{
+      font-size: 10px;
+      font-weight: lighter;
+      position: absolute;
+      top: 5px;
+      left: 0px
+  }
+
+  

@@ -128,6 +128,7 @@ const app = new Vue({
         tutorials:[
             {
                 title:"Questo è il titolo di un articolo",
+                date: "October 11th, 2015|Comments Off",
                 commts:"20",
                 href:"#",
                 img:"./images/post_feat_img_22-147x118.jpg",
@@ -135,6 +136,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo ",
+                date: "October 11th, 2015|Comments Off",
                 commts:"15",
                 href:"#",
                 img:"./images/post_feat_img_22-147x118.jpg",
@@ -142,6 +144,7 @@ const app = new Vue({
             },
             {
                 title:"Questo è il titolo di un articolo",
+                date: "October 11th, 2015|Comments Off",
                 commts:"21",
                 href:"#",
                 img:"./images/post_feat_img_22-147x118.jpg",

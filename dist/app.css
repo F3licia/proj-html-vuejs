@@ -34,8 +34,8 @@ button {
   border-radius: 2px;
   border: 0px;
   text-transform: uppercase;
-  cursor: pointer;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .buttonForm {
@@ -264,12 +264,6 @@ button {
   font-weight: 400;
 }
 
-.colTitle {
-  font-size: 30px;
-  letter-spacing: normal;
-  font-weight: 700;
-}
-
 button .fa {
   margin-left: 10px;
 }
@@ -282,6 +276,23 @@ button .fa {
   letter-spacing: normal;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+/*--mini colonna laterale
+     vedi tutorial & guides--*/
+.colTitle {
+  font-size: 30px;
+  line-height: 61px;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+.miniTitleCol {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 0px;
+  letter-spacing: normal;
+  font-weight: 800;
 }
 
 .hero {
@@ -345,6 +356,7 @@ section.paragraph {
   flex-direction: column;
 }
 .cardArticle img {
+  margin-bottom: 20px;
   width: 100%;
   height: auto;
 }

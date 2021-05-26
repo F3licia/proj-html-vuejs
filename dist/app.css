@@ -173,7 +173,11 @@ button {
   align-content: flex-end;
   align-items: center;
 }
-.navbar li, .navbar button {
+.navbar li {
+  padding: 10px;
+  margin-left: 25px;
+}
+.navbar button {
   margin-left: 25px;
 }
 

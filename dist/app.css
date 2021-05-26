@@ -32,9 +32,10 @@ button {
   border: 0px;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: bolder;
 }
 
-.buttonBlack {
+.buttonForm {
   height: 54px;
   width: 248px;
   font-size: 18px;
@@ -43,12 +44,10 @@ button {
 }
 
 .heroButton {
-  padding: 15px 40px 20px 40px;
   font-size: 18px;
   line-height: normal;
   height: 55px;
   width: 253px;
-  font-weight: bolder;
   color: #fff;
   background-color: #26a9bd;
 }
@@ -57,7 +56,6 @@ button {
   font-size: 13px;
   height: 30px;
   width: 97px;
-  font-weight: bolder;
   color: #fff;
   background-color: #000;
 }
@@ -67,6 +65,22 @@ button {
   height: 176px;
   width: 55px;
   background-color: #26a9bd;
+}
+
+.buttonArticle {
+  height: 55px;
+  width: 200px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #000;
+}
+
+.buttonLarge {
+  height: 160px;
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
 }
 
 .header {
@@ -170,6 +184,7 @@ button {
   line-height: 28px;
   letter-spacing: normal;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .miniTitle {
@@ -192,6 +207,10 @@ button {
   line-height: 61px;
   letter-spacing: normal;
   font-weight: 700;
+}
+
+button .fa {
+  margin-left: 10px;
 }
 
 .hero {
@@ -336,6 +355,8 @@ section.paragraph {
 }
 
 .dividerRow {
+  margin: 0px;
+  padding: 0px;
   text-align: center;
   background-color: #191919;
   color: #fff;

@@ -166,8 +166,6 @@ const app = new Vue({
             return this.rowHotTopic;
         },
 
-        getFeautered() {  
-        },
         getMailUser() { 
             if(this.signUpMail.includes("@", "."))
             {              

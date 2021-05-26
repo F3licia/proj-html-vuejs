@@ -26,6 +26,9 @@ input {
   margin-right: 10px;
   border: 1px solid lightgray;
 }
+input:focus-visible {
+  outline: 2px solid #27aabe;
+}
 
 button {
   border-radius: 2px;
